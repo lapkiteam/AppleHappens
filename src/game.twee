@@ -1,0 +1,32 @@
+:: StoryTitle
+AppleHappens
+
+
+:: StoryData
+{
+  "ifid": "E42124EB-7A4A-4E82-90A3-934E9AC2639E",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Menu",
+  "zoom": 1
+}
+
+
+:: StoryDisplayTitle
+Яблочный случай
+
+
+:: StoryAuthor
+<a href="https://github.com/lapkiteam" target="_blank" rel="noopener noreferrer">LapkiTeam</a>
+
+
+:: Menu
+! Яблочный случай
+
+Мать дает тебе деньги на яблоки, но ты спускаешь их на сладости. Дома тебя ждет попа боль, но по дороге домой ты видишь чужую яблоню.
+
+* [[Начать игру|Начало]]
+
+
+:: Начало
+Начало
