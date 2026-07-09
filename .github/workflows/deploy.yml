@@ -90,7 +90,7 @@ jobs:
           <meta property="og:type" content="website">
           <meta property="og:title" content="Яблочный случай">
           <meta property="og:description" content="Текстовая игра. Мать дает Павлу деньги на яблоки, но сладости оказываются милее. Дома его ожидает попа боль, но по дороге домой он замечает чужую яблоню…">
-          <meta property="og:image" content="https://github.com/lapkiteam/AppleHappens/logo.webp">
+          <meta property="og:image" content="https://lapkiteam.github.io/AppleHappens/logo.webp">
 
           <!-- Twitter Meta Tags -->
           <meta name="twitter:card" content="summary_large_image">
@@ -98,7 +98,7 @@ jobs:
           <meta property="twitter:url" content="https://github.com/lapkiteam/AppleHappens">
           <meta name="twitter:title" content="Яблочный случай">
           <meta name="twitter:description" content="Текстовая игра. Мать дает Павлу деньги на яблоки, но сладости оказываются милее. Дома его ожидает попа боль, но по дороге домой он замечает чужую яблоню…">
-          <meta name="twitter:image" content="https://github.com/lapkiteam/AppleHappens/logo.webp">
+          <meta name="twitter:image" content="https://lapkiteam.github.io/AppleHappens/logo.webp">
           EOF
           )
 
