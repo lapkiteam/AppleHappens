@@ -20,13 +20,71 @@ AppleHappens
 <a href="https://github.com/lapkiteam" target="_blank" rel="noopener noreferrer">LapkiTeam</a>
 
 
+:: Achievements [script]
+setup.achiev = createAchievs({
+  recall,
+  memorize,
+  forget,
+  Dialog,
+}, [
+  {
+    name: "Хороший мальчик",
+    desc: "Слушаться маму — хорошее дело (иногда).",
+    imageStyle: undefined,
+  },
+])
+
 :: Menu
 ! Яблочный случай
 
 Мать дает тебе деньги на яблоки, но ты спускаешь их на сладости. Дома тебя ждет попа боль, но по дороге домой ты видишь чужую яблоню.
 
 * [[Начать игру|Начало]]
+* [[Достижения]]
 
+
+:: StoryMenu
+[[Достижения]]
+
+
+:: Достижения
+! Достижения
+
+<<nobr>>
+  <ul>
+    <<for _id, _achEarned range setup.achiev.states>>
+      <<set _ach to setup.achiev.achievements[_id]>>
+      <<if _achEarned>>
+        <li>✅ <<= '<span class="' + _ach.imageStyle + '"></span>'>> ''_ach.name'' – _ach.desc</li>
+      <<else>>
+        <li>⬜️ _ach.name</li>
+      <</if>>
+    <</for>>
+  </ul>
+<</nobr>>\
+
+* <<link "Сбросить достижения">>
+  <<run Modal(
+    "Вы точно хотите сбросить все достижения?",
+    () => {
+      setup.achiev.reset()
+      Engine.show() // update current passage
+    }
+  )>>
+<</link>>
+* <<back "Назад">>
 
 :: Начало
-Начало
+! Магазин
+
+Павлу нужно купить яблоки по поручению матери.
+
+* Купить сладости
+* [[Купить яблоки]]
+
+
+:: Купить яблоки
+<<run setup.achiev.unlock("Хороший мальчик")>>\
+Вы получили достижение <<link "Хороший мальчик">>
+  <<run setup.achiev.show("Хороший мальчик")>>
+<</link>>!
