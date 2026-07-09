@@ -83,13 +83,13 @@ jobs:
           META=$(cat << EOF
           <!-- HTML Meta Tags -->
           <title>Яблочный случай</title>
-          <meta name="description" content="Текстовая игра. Мать дает Павлу деньги на яблоки, но сладости оказываются милее. Дома его ожидает попа боль, но по дороге домой он замечает чужую яблоню…">
+          <meta name="description" content="Текстовая игра. Мать отправляет Павла в магазин за яблоками, но в мире слишком много соблазнов…">
 
           <!-- Facebook Meta Tags -->
           <meta property="og:url" content="https://github.com/lapkiteam/AppleHappens">
           <meta property="og:type" content="website">
           <meta property="og:title" content="Яблочный случай">
-          <meta property="og:description" content="Текстовая игра. Мать дает Павлу деньги на яблоки, но сладости оказываются милее. Дома его ожидает попа боль, но по дороге домой он замечает чужую яблоню…">
+          <meta property="og:description" content="Текстовая игра. Мать отправляет Павла в магазин за яблоками, но в мире слишком много соблазнов…">
           <meta property="og:image" content="https://lapkiteam.github.io/AppleHappens/logo.webp">
 
           <!-- Twitter Meta Tags -->
@@ -97,7 +97,7 @@ jobs:
           <meta property="twitter:domain" content="lapkiteam.github.io">
           <meta property="twitter:url" content="https://github.com/lapkiteam/AppleHappens">
           <meta name="twitter:title" content="Яблочный случай">
-          <meta name="twitter:description" content="Текстовая игра. Мать дает Павлу деньги на яблоки, но сладости оказываются милее. Дома его ожидает попа боль, но по дороге домой он замечает чужую яблоню…">
+          <meta name="twitter:description" content="Текстовая игра. Мать отправляет Павла в магазин за яблоками, но в мире слишком много соблазнов…">
           <meta name="twitter:image" content="https://lapkiteam.github.io/AppleHappens/logo.webp">
           EOF
           )
