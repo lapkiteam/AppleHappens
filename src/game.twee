@@ -12,8 +12,12 @@ AppleHappens
 }
 
 
+:: StoryBanner
+<img style="width: 232px;" src="./logo.webp" alt="logo image" srcset="./logo.webp">
+
+
 :: StoryDisplayTitle
-Яблочный случай
+/* Название игры написано на банере */
 
 
 :: StoryAuthor
